@@ -1,9 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
+import EightBall from './EightBall'
+import answers from './answersArray'
 
 function App() {
   return (
     <div className="App">
+              <EightBall  answers={answers} />
+
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
